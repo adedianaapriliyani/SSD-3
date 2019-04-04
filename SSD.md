@@ -139,17 +139,18 @@ c.    Tersedia sarana koneksi ke internet, sarana jaringan komputer, dan sarana 
 <p align="center"><b><font size="5">BAB III</font></b><br>
 <b><font size="3">SOFTWARE DESIGN</font></b></p>
 
-
 <li><strong>3.1	Kebutuhan Fungsional</strong></li>
 <p>Kebutuhan fungsional (Functional Requirements) ini adalah kebutuhan utama yang diharapkan dari sistem ini, yang terkait langsung dengan sistem ini. Kebutuhan fungsional dari sistem ini adalah sebagai berikut:</p>
 <ol>
-	<li>1.	Pencatatan pesanan</li>
-	<li>2.	Pencatatan laporan keuangan</li>
-	<li>3.	Manajemen produk olahan mangga Indramayu</li>
-	<li>4.	Transaksi</li>
+<li>1.	Pencatatan pesanan</li>
+<li>2.	Pencatatan laporan keuangan</li>
+<li>3.	Manajemen produk olahan mangga Indramayu</li>
+<li>4.	Transaksi</li>
 </ol>
 <p>Spesifikasi dari system yang diharapkan:</p>
+<p>1.	Spesifikasi yang diharapkan pada Pencatatan Pesanan</p>
 <ol>
+<<<<<<< HEAD
 	<li>1.	Spesifikasi yang diharapkan pada Pencatatan Pesanan</li>
 	<ol>
 		<li>a.	Sistem dapat mencatat pesanan yang telah dipilih melalui website.</li>
@@ -174,44 +175,65 @@ c.    Tersedia sarana koneksi ke internet, sarana jaringan komputer, dan sarana 
 		<li>b.	Sistem harus dapat menghitung data pesanan</li>
 	</ol>
 
+=======
+<li>a.	Sistem dapat mencatat pesanan yang telah dipilih melalui website.</li>
+<li>b.	Sistem dapat mengcancel pesanan yang sudah dipilih sebelum konfirmasi pesanan.</li>
+<li>c.	Sistem dapat memberikan pemberitahuan jika barang sudah tidak tersedia maka pembeli atau reseller tidak dapat melakukan pemesanan produk.</li>
+</ol>
+<p>2.	Spesifikasi yang diharapkan dari laporan keuangan</p>
+<ol>
+<li>a.	Sistem dapat menampilkan pendapatan hari ini</li>
+<li>b.	Sistem dapat menampilkan laporan keuangan dalam periode waktu tertentu</li>
+</ol>
+<p>3.	Spesifikasi yang diharapkan pada Manajemen produk olahan mangga Indramayu</p>
+<ol>
+<li>a.	Sistem harus dapat menghapus, dan menambah produk olahan mangga Indramayu </li>
+<li>b.	Sistem dapat menampilkan produk olahan mangga Indramayu yang masih tersedia<lli>
+</ol>
+<p>4.	Transaksi</p>
+<ol>
+<li>a.	Sistem harus dapat menghitung harga yang harus dibayar pembeli. Dan jika ada yang mau menjadi reseller maka system dapat membedakan harga yang harus dibayar reseller.</li>
+<li>b.	Sistem harus dapat menghitung data pesanan</li>
+</ol>
+>>>>>>> 404b7453e61a562a88316ce45a3abf3bfffda1ad
 <li><strong>3.2	Kebutuhan Non Fungsional</strong></li>
 <p>Kebutuhan yang mendukung kelancaran sistem ini didefnisikan sebagai berikut:</p>
 <ol>
-	<li>1.	Availability	:</li>
-	<p>Aplikasi secara online, dengan asumsi koneksi internet dan jaringan berjalan normal</p>
-	<li>2.	Reliability	: </li>
-	<p>Sistem data reliabel berhubungan dengan stok produk olahan mangga Indramayu dan juga reliabel berhubungan dengan laporan keuangan</p>
-	<li>3.	Ergonomy	:</li>
-	<p>User friendly dengan memperhatikan hal yang berhubungan dengan Human Computer Interaction</p>
-	<li>4.	Portability	: </li>
-	<p>Dapat diakses dari website untuk produk olahan mangga Indramayu serta diakses dari desktop mengenai transaksi dan laporan</p>
-	<li>5.	Memory 	: </li>
-	<p>Minimum memory untuk server aplikasi 4 Gb</p>
-	<li>6.	Response time: </li>
-	<p>Tidak terukur</p>
-	<li>7.	Security	:</li>
-	<p>Login dan validasi password</p>
-
+<li>Availability	:</li>
+<p>Aplikasi secara online, dengan asumsi koneksi internet dan jaringan berjalan normal</p>
+<li>Reliability	: </li>
+<p>Sistem data reliabel berhubungan dengan stok produk olahan mangga Indramayu dan juga reliabel berhubungan dengan laporan keuangan</p>
+<li>Ergonomy	:</li>
+<p>User friendly dengan memperhatikan hal yang berhubungan dengan Human Computer Interaction</p>
+<li>Portability	: </li>
+<p>Dapat diakses dari website untuk produk olahan mangga Indramayu serta diakses dari desktop mengenai transaksi dan laporan</p>
+<li>Memory 	: </li>
+<p>Minimum memory untuk server aplikasi 4 Gb</p>
+<li>Response time: </li>
+<p>Tidak terukur</p>
+<li>Security	:</li>
+<p>Login dan validasi password</p>
+</ol>
 <li><strong>3.3	Kebutuhan Antarmuka (interface)</strong></li>
 <p>Antarmuka dalam penerapan aplikasi Mangolineshop dibagi menjadi dua, yaitu:</p>
-<ol>
-	<li>1.	Hardware Interface	: adalah kebutuhan perangkat keras yang harus dipenuhi untuk implementasi sistem aplikasi Mangolineshop berbasis website.</li>
-	<li>2.	Software Interface	: kebutuhan software untuk implementasi sistem aplikasi Mangolineshop:</li>
-	<ol>
-		<li>a.	Postgre </li>
-		<li>b.	Server Laragon</li>
-		<li>c.	Visual Studio Code</li>
-		<li>d.	Google Crome</li>
-		<li>e.	Mozilla Firefox</li>
-	</ol>
-</ol>
 
+<p>1.	Hardware Interface	: adalah kebutuhan perangkat keras yang harus dipenuhi untuk implementasi sistem aplikasi Mangolineshop berbasis website.</p>
+<p>2.	Software Interface	: kebutuhan software untuk implementasi sistem aplikasi Mangolineshop:</p>
+<ol>
+<li>Postgre </li>
+<li>Server Laragon</li>
+<li>Visual Studio Code</li>
+<li>Google Crome</li>
+<li>Mozilla Firefox</li>
+</ol>
+	
 <li><strong>3.4	Lingkungan Operasi</strong></li>
 <p>Aplikasi aka berfungsi dengan lingkungan operasi sebagai berikut:</p>
 <ol>
-	<li>a.	Sistem Operasi 	: Windows </li>
-	<li>b.	DBMS		: Berbasis Postgre</li> 
-	<li>c.	Pemrograman		: PHP dan HTML</li>
+<li>Sistem Operasi 	: Windows </li>
+<li>DBMS		: Berbasis Postgre</li> 
+<li>Pemrograman		: PHP dan HTML</li>
+</ol>
 
 <li><strong>3.5	Batasan Perancangan</strong></li>
 <p>Perancangan sistem aplikasi Mangolineshop ini adalah berbasis website untuk admin, penjual, reseller dan pembeli. Dan Bahasa pemrograman yang digunakan adalah PHP dan HTML.</p>
@@ -221,8 +243,9 @@ c.    Tersedia sarana koneksi ke internet, sarana jaringan komputer, dan sarana 
 <p>DFD Level 0 (Context Diagram)<p>
 <p>Dalam perancangan DFD level 0, entitas eksternal yang terlibat adalah:</p>
 <ol>
-	<li>1.	Penjual </li>
-	<li>2.	Admin</li>
-	<li>3.	Pembeli</li>
+	<li>Penjual </li>
+	<li>Admin</li>
+	<li>Pembeli</li>
+</ol>
 
 
