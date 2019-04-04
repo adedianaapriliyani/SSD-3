@@ -2,7 +2,7 @@
 	<font size="5"><b>APLIKASI PENJUALAN OLAHAN</b></font><br>
 	<font size="5"><b>BUAH MANGGA INDRAMAYU BERBASIS WEBSITE</b></font><br></p>
 
-<p align="center"><img src="Gambar/POLINDRA.png" width="250" height="250"></p>
+<p align="center"><img src="images/polindra.png" width="250" height="250"></p>
 
 <br>
 
