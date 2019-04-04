@@ -90,7 +90,6 @@ Secara ringkas, fungsi Aplikasi Mangolineshop dapat dituliskan sebagai berikut :
 </ol>
 
 
-
 <li><strong>1.3	Gambaran umum dokumen</strong></li>
 
 <p>Penulisan dokumen ini dibagi menjadi beberapa bab sebagai berikut: </p>
@@ -100,7 +99,43 @@ Secara ringkas, fungsi Aplikasi Mangolineshop dapat dituliskan sebagai berikut :
 	<li>Bab 2, adalah Deskripsi Umum, yang berisi tentang gambaran umum mengenai perspektif produk, manfaat produk, karakteristik user dan stakeholder, batasan, serta asumsi dan ketergantungan yang digunakan. </li>
 	<li>Bab 3, adalah Software Design, yang menyediakan spesifikasi, kebutuhan, antarmuka, kebutuhan fungsional dan nonfunctional, lingkungan operasi, dan batasan perancangan, permodelan proses, permodelan data, struktur data, spesifikasi program dan desain interface.</li>
 	</ol>
-	
+
+
+<p align="center"><b><font size="5">BAB II</font></b><br>
+<b><font size="3">DESKRIPSI UMUM</font></b></p>
+<li><p><strong>2.1    Perspektif Produk</strong></li>
+
+Produk dari SDD ini adalah sebuah aplikasi yang berbasis web, yang akan dijalankan dan berfungsi sebagai untuk mempermudah layanan penjualan olahan mangga, seperti yang telah dijelaskan pada Pendahuluan. Produk ini akan dapat diakses dari browser yang berjalan pada sistem operasi Windows maupun Linux.
+<li><strong>2.2    Manfaat Produk</strong></li><br/><br/>
+Manfaat yang didapat manajemen dalam menggunakan sistem atau aplikasi Mangolineshop ini adalah:
+a.    Memudahkan proses pemesanan produk olahan mangga Indramayu bagi pembeli dan reseller.
+b.    Memudahkan admin dan penjual dalam melakukan perhitungan penjualan.
+c.    Memudahkan penjual memantau penjualan pada aplikasi Mangolineshop.
+d.    Menyediakan informasi mengenai  produk olahan mangga Indramayu kepada pembeli dan reseller.<br>
+
+<li><strong>2.3    Karakteristik User dan Stakeholder User</strong>
+
+a.    Yang terlibat adalah sebagai berikut:</p>
+
+<ol>
+<li>Admin</li>
+<li>Penjual</li>
+<li>Reseller</li>
+<li>Pembeli
+b.    Stakeholder yang terkait dengan sistem ini:</li>
+<li>Mitra Kenanga Mandiri.</li>
+<li>Kelompok Aplikasi Mangolineshop berbasis website.<br/>
+<br/><strong>2.4    Batasan – Batasan</strong><br/>
+a.    Aplikasi ini mencakup sistem pada admin, pembeli, reseller dan penjual saja.
+b.    Transaksi pembayaran langsung dilakukan pembeli, reseller dan admin, sistem hanya membantu menampilkan transaksi yang dilakukan.
+c.    Tidak menggunakan Secure Online Transaction atau Secure Socket Layer (SSL).</li>
+</ol>
+<li><p><strong>2.5    Asumsi</strong><br/></li>
+a.    Setiap pembeli dan reseller dapat memahami cara memesan produk melalui website yang ada pada aplikasi Mangolineshop.
+b.    Setiap penjual mempunyai username dan password yang dikonfirmasi oleh system &amp; admin.
+c.    Tersedia sarana koneksi ke internet, sarana jaringan komputer, dan sarana penunjang lainnya.</p>
+
+
 <p align="center"><b><font size="5">BAB III</font></b><br>
 <b><font size="3">SOFTWARE DESIGN</font></b></p>
 
@@ -127,7 +162,7 @@ Secara ringkas, fungsi Aplikasi Mangolineshop dapat dituliskan sebagai berikut :
 		<li>a.	Sistem dapat menampilkan pendapatan hari ini</li>
 		<li>b.	Sistem dapat menampilkan laporan keuangan dalam periode waktu tertentu</li>
 	</ol>
-
+	
 	<li>3.	Spesifikasi yang diharapkan pada Manajemen produk olahan mangga Indramayu</li>
 	<ol>
 		<li>a.	Sistem harus dapat menghapus, dan menambah produk olahan mangga Indramayu </li>
