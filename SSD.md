@@ -107,41 +107,30 @@ Secara ringkas, fungsi Aplikasi Mangolineshop dapat dituliskan sebagai berikut :
 
 <li><strong>3.1	Kebutuhan Fungsional</strong></li>
 <p>Kebutuhan fungsional (Functional Requirements) ini adalah kebutuhan utama yang diharapkan dari sistem ini, yang terkait langsung dengan sistem ini. Kebutuhan fungsional dari sistem ini adalah sebagai berikut:</p>
-<ol>
 	<li>1.	Pencatatan pesanan</li>
 	<li>2.	Pencatatan laporan keuangan</li>
 	<li>3.	Manajemen produk olahan mangga Indramayu</li>
 	<li>4.	Transaksi</li>
-</ol>
 <p>Spesifikasi dari system yang diharapkan:</p>
-<ol>
 	<li>1.	Spesifikasi yang diharapkan pada Pencatatan Pesanan</li>
-	<ol>
 		<li>a.	Sistem dapat mencatat pesanan yang telah dipilih melalui website.</li>
 		<li>b.	Sistem dapat mengcancel pesanan yang sudah dipilih sebelum konfirmasi pesanan.</li>
 		<li>c.	Sistem dapat memberikan pemberitahuan jika barang sudah tidak tersedia maka pembeli atau reseller tidak dapat melakukan pemesanan produk.</li>
-	</ol>
 
 	<li>2.	Spesifikasi yang diharapkan dari laporan keuangan</li>
-	<ol>
 		<li>a.	Sistem dapat menampilkan pendapatan hari ini</li>
 		<li>b.	Sistem dapat menampilkan laporan keuangan dalam periode waktu tertentu</li>
-	</ol>
 
 	<li>3.	Spesifikasi yang diharapkan pada Manajemen produk olahan mangga Indramayu</li>
-	<ol>
 		<li>a.	Sistem harus dapat menghapus, dan menambah produk olahan mangga Indramayu </li>
 		<li>b.	Sistem dapat menampilkan produk olahan mangga Indramayu yang masih tersedia<lli>
-	</ol>
 	<li>4.	Transaksi</li>
-	<ol>
 		<li>a.	Sistem harus dapat menghitung harga yang harus dibayar pembeli. Dan jika ada yang mau menjadi reseller maka system dapat membedakan harga yang harus dibayar reseller.</li>
 		<li>b.	Sistem harus dapat menghitung data pesanan</li>
-	</ol>
 
 <li><strong>3.2	Kebutuhan Non Fungsional</strong></li>
 <p>Kebutuhan yang mendukung kelancaran sistem ini didefnisikan sebagai berikut:</p>
-<ol>
+
 	<li>1.	Availability	:</li>
 	<p>Aplikasi secara online, dengan asumsi koneksi internet dan jaringan berjalan normal</p>
 	<li>2.	Reliability	: </li>
@@ -159,21 +148,21 @@ Secara ringkas, fungsi Aplikasi Mangolineshop dapat dituliskan sebagai berikut :
 
 <li><strong>3.3	Kebutuhan Antarmuka (interface)</strong></li>
 <p>Antarmuka dalam penerapan aplikasi Mangolineshop dibagi menjadi dua, yaitu:</p>
-<ol>
+
 	<li>1.	Hardware Interface	: adalah kebutuhan perangkat keras yang harus dipenuhi untuk implementasi sistem aplikasi Mangolineshop berbasis website.</li>
 	<li>2.	Software Interface	: kebutuhan software untuk implementasi sistem aplikasi Mangolineshop:</li>
-	<ol>
+	
 		<li>a.	Postgre </li>
 		<li>b.	Server Laragon</li>
 		<li>c.	Visual Studio Code</li>
 		<li>d.	Google Crome</li>
 		<li>e.	Mozilla Firefox</li>
-	</ol>
-</ol>
+	
+
 
 <li><strong>3.4	Lingkungan Operasi</strong></li>
 <p>Aplikasi aka berfungsi dengan lingkungan operasi sebagai berikut:</p>
-<ol>
+
 	<li>a.	Sistem Operasi 	: Windows </li>
 	<li>b.	DBMS		: Berbasis Postgre</li> 
 	<li>c.	Pemrograman		: PHP dan HTML</li>
@@ -185,7 +174,7 @@ Secara ringkas, fungsi Aplikasi Mangolineshop dapat dituliskan sebagai berikut :
 <p>Untuk menggambarkan pemodelan proses digunakan DFD (Data Flow Diagram), yang untuk masing- masing level akan digambarkan sebagai berikut:</p>
 <p>DFD Level 0 (Context Diagram)<p>
 <p>Dalam perancangan DFD level 0, entitas eksternal yang terlibat adalah:</p>
-<ol>
+
 	<li>1.	Penjual </li>
 	<li>2.	Admin</li>
 	<li>3.	Pembeli</li>
