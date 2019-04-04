@@ -1,20 +1,32 @@
-<p><strong>SOFTWARE DESIGN DOCUMENT</strong></p>
-<p><strong>APLIKASI PENJUALAN </strong><strong>OLAHAN </strong></p>
-<p><strong>BUAH MANGGA </strong><strong>INDRAMAYU BERBASIS WEBSITE</strong></p>
-<p><strong>TIKB2293 PROYEK II </strong></p>
-<p>Diajukan untuk Memenuhi Persyaratan Mata Kuliah Proyek II</p>
+<p align="center"><font size="5"><b>SOFTWARE DESIGN DOCUMENT</b></font><br>
+	<font size="5"><b>APLIKASI PENJUALAN OLAHAN</b></font><br>
+	<font size="5"><b>BUAH MANGGA INDRAMAYU BERBASIS WEBSITE</b></font><br></p>
+
+<p align="center"><img src="Gambar/POLINDRA.png" width="250" height="250"></p>
+
+<br>
+
+<p align="center">
+    <b><font size="4">Kelompok 3:</font></b><br>
+    1. Ade Diana Apriliyani	 (1703072) <br>
+    2. Fany Fahrurozi (1703060)<br>
+    3. Fiqi Andri Reviansyah (1703064)<br>
+</p>
+<center><font size="3"><p align="center">Kelas D3TI2C</p></font></center>
+
+<br>
+
+<br>
+
+<p align="center"><b><font size="5">D3 TEKNIK INFORMATIKA</font></b><br>
+<b><font size="3">POLITEKNIK NEGERI INDRAMAYU</font></b><br>
+<b><font size="3">2019</font></b></p>
 <p>&nbsp;</p>
+
 <p><strong>&nbsp;</strong></p>
-<p>Disusun Oleh:</p>
-<p>Ade Diana Apriliyani&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (1703072)</p>
-<p>Fany Fahrurozi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (1703060)</p>
-<p>Fiqi Andri Reviansyah&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (1703064)</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><strong>D3 TEKNIK INFORMATIKA</strong></p>
-<p><strong>POLITEKNIK NEGERI INDRAMAYU</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p>Jl. Lohbener Lama No.08, Lohbener, Indramayu, Legok, Lohbener, Kabupaten Indramayu, Jawa Barat 45252, Indonesia</p>
+<p align="center"><font size="5">Jl. Lohbener Lama No.08, Lohbener, Indramayu, Legok, Lohbener, Kabupaten Indramayu, Jawa Barat 45252, Indonesia</font><br>
+
+<p></p>
 <p><strong>&nbsp;</strong></p>
 <h1><strong>KATA PENGANTAR</strong></h1>
 <p>&nbsp;</p>
@@ -42,70 +54,47 @@
 <p>&nbsp;</p>
 <p><strong><br /> </strong></p>
 <p><strong>&nbsp;</strong></p>
-<p><strong>BAB I</strong></p>
-<p><strong>PENDAHULUAN</strong></p>
-<p><strong>1.1 Tujuan</strong></p>
-<p>Tujuan pembuatan SDD (Software Design Description) ini&nbsp;&nbsp; adalah untuk menjelaskan langkah langkah desain dan proses-proses dalam pembuatan sistem aplikasi yang akan diterapkan pada Aplikasi Mangolineshop (Aplikasi Penjualan Olahan Mangga Indramayu Berbasis Website), dan juga memberi definisi kebutuhan untuk sistem, spesifikasi kebutuhan fungsional.</p>
-<p>Fungsi utama dari aplikasi Mangolineshop ini adalah mempermudah penjual olahan mangga dalam memberikan pelayanan terhadap pembeli, memudahkan penjual dalam rekap laporan keuangan, dan sebagai sarana untuk mempromosikan produk olahan mangga khas Kota Indramayu.</p>
-<p>Secara ringkas, fungsi Aplikasi Mangolineshop dapat dituliskan sebagai berikut :</p>
+
+<p align="center"><b><font size="5">BAB I</font></b><br>
+<b><font size="3">PENDAHULUAN</font></b></p>
+
+<li><strong>1.1	Tujuan</strong></li>
+
+<p>Tujuan pembuatan SDD (Software Design Description) ini   adalah untuk menjelaskan langkah langkah desain dan proses-proses dalam pembuatan sistem aplikasi yang akan diterapkan pada Aplikasi Mangolineshop (Aplikasi Penjualan Olahan Mangga Indramayu Berbasis Website), dan juga memberi definisi kebutuhan untuk sistem, spesifikasi kebutuhan fungsional. 
+Fungsi utama dari aplikasi Mangolineshop ini adalah mempermudah penjual olahan mangga dalam memberikan pelayanan terhadap pembeli, memudahkan penjual dalam rekap laporan keuangan, dan sebagai sarana untuk mempromosikan produk olahan mangga khas Kota Indramayu.
+Secara ringkas, fungsi Aplikasi Mangolineshop dapat dituliskan sebagai berikut : 
+</p>
 <ol>
 <li>Admin dapat menginputkan fitur kategori produk, akun penjual, dan akun pembeli yang nantinya akan digunakan oleh user dalam aplikasi tersebut.</li>
 <li>Admin merekap laporan transaksi.</li>
 <li>Aplikasi penjual harus mendaftar terlebih dahulu di admin Mangolineshop.</li>
 <li>Aplikasi penjual dan admin login, kemudian memberikan detail produk olahan mangga pada pembeli.</li>
 <li>Pembeli harus melakukan konfirmasi pembelian terlebih dahulu setelah memilih produk olahan mangga yang ingin dibeli pada aplikasi Manolineshop.</li>
-<li>Pembeli melakukan pembayaran setelah konfirmasi pemesanan menu &ndash; menu yang dibeli di aplikasi kasir sebagai bukti pembayaran.</li>
+<li>Pembeli melakukan pembayaran setelah konfirmasi pemesanan menu – menu yang dibeli di aplikasi kasir sebagai bukti pembayaran</li>
 <li>Aplikasi penjual dan admin login, kemudian melakukan proses perhitungan pembayaran untuk pembeli.</li>
-<li>Setelah melakukan transaksi penjual dan admin dapat melihat laporan pendapatan terhadap pemesanan yang dilakukan oleh pembeli.</li>
-</ol>
-<p><strong>1.2&nbsp;Ruang Lingkup</strong></p>
-<p>Hasil dari SDD ini adalah aplikasi yang berbasis web, yang digunakan untuk membantu pemasaran dan pengelolaan yang ada di UKM Kenanga Mandiri dalam hal :</p>
-<ol>
-<li>Mencatat produk olahan mangga Indramayu yang akan ditampilkan di aplikasi Mangolineshop.</li>
-<li>Mencatat pemesanan produk olahan mangga terhadap pembeli di aplikasi Mangolineshop.</li>
-<li>Menghitung transaksi terhadap pemesanan yang dilakukan oleh pembeli yang akan dilakukan pada aplikasi Admin dari aplikasi Mangolineshop.</li>
-<li>Mencatat laporan transaksi yang akan ditampilkan di aplikasi penjual dan admin dari aplikasi Mangolineshop.</li>
-</ol>
-<p><strong>1.3&nbsp;Gambaran umum dokumen</strong></p>
-<p>Penulisan dokumen ini dibagi menjadi beberapa bab sebagai berikut:</p>
-<ol>
-<li>Bab 1, adalah Pendahuluan yang menjelaskan mengenai tujuan perangkat lunak, ruang lingkup, serta gambaran umum dokumen.</li>
-<li>Bab 2, adalah Deskripsi Umum, yang berisi tentang gambaran umum mengenai perspektif produk, manfaat produk, karakteristik user dan stakeholder, batasan, serta asumsi dan ketergantungan yang digunakan.</li>
-<li>Bab 3, adalah Software Design, yang menyediakan spesifikasi, kebutuhan, antarmuka, kebutuhan fungsional dan nonfunctional, lingkungan operasi, dan batasan perancangan, permodelan proses, permodelan data, struktur data, spesifikasi program dan desain interface.</li>
+<li>8.	Setelah melakukan transaksi penjual dan admin dapat melihat laporan pendapatan terhadap pemesanan yang dilakukan oleh pembeli. </li>
 </ol>
 <p>&nbsp;</p>
-<p><strong>BAB II</strong></p>
-<p><strong>DESKRIPSI UMUM</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>2.1 Perspektif Produk</strong></p>
-<p>Produk dari SDD ini adalah sebuah aplikasi yang berbasis web, yang akan dijalankan dan berfungsi sebagai untuk mempermudah layanan penjualan olahan mangga, seperti yang telah dijelaskan pada Pendahuluan. Produk ini akan dapat diakses dari browser yang berjalan pada sistem operasi Windows maupun Linux.</p>
-<p><strong>2.2 Manfaat Produk</strong></p>
-<p>Manfaat yang didapat manajemn dalam menggunakan siste atau aplikasi Mangolineshop ini adalah:</p>
+
+<li><strong>1.2	Ruang Lingkup</strong></li>
+
+<p>Hasil dari SDD ini adalah aplikasi yang berbasis web, yang digunakan untuk membantu pemasaran dan pengelolaan yang ada di UKM Kenanga Mandiri dalam hal :</p>
 <ol>
-<li>Memudahkan proses pemesanan produk olahan mangga Indramayu bagi pe</li>
-<li>Memudahkan admin dan penjual dalam melakukan perhitungan</li>
-<li>Memudahkan penjual memantau penjualan pada aplikasi Mangolineshop.</li>
-<li>Menyediakan informasi mengenai produk olahan mangga Indramayu kepada pembeli.</li>
+	<li>Mencatat produk olahan mangga Indramayu yang akan ditampilkan di aplikasi Mangolineshop.</li>
+	<li>Mencatat pemesanan produk olahan mangga terhadap pembeli di aplikasi Mangolineshop.</li>
+	<li>Menghitung transaksi terhadap pemesanan yang dilakukan oleh pembeli yang akan dilakukan pada aplikasi Admin dari aplikasi Mangolineshop.</li>
+	<li>Mencatat laporan transaksi yang akan ditampilkan di aplikasi penjual dan admin dari aplikasi Mangolineshop.</li>
 </ol>
-<p><strong>2.3 Karakteristik User dan Stakeholder User</strong></p>
+
+
+
+<li><strong>1.3	Gambaran umum dokumen</strong></li>
+
+<p>Penulisan dokumen ini dibagi menjadi beberapa bab sebagai berikut: </p>
 <ol>
-<li>Yang terlibat adalah sebagai berikut :</li>
-<li>Admin</li>
-<li>Penjual</li>
-<li>Reseller</li>
-<li>Pembeli</li>
-<li>Stakeholder yang terkait dengan system ini:</li>
-<li>Mitra Kenanga Mandiri.</li>
-<li>Kelompok Aplikasi Mangolineshop.</li>
-</ol>
-<p><strong>2.4 Batasan &ndash; Batasan</strong></p>
-<ol>
-<li>Aplikasi ini mencakup sistem pada admin dan penjual saja</li>
-<li>Transaksi pembayaran langsung dilakukan pembeli dan kasir, sistem hanya membantu menampilkan transaksi yang dilakukan</li>
-</ol>
-<p><strong>2.5&nbsp;Asumsi</strong></p>
-<ol>
-<li>Setiap pembeli dapat langsung memesan produk melalui website yang ada pada aplikasi Mangolineshop.</li>
-<li>Setiap penjual mempunyai username dan password yang diberikan oleh admin.</li>
-</ol>
-<p>Tersedia sarana koneksi ke internet, sarana jaringan komputer, dan sarana penunjang lainnya</p>
+	<li>Bab 1, adalah Pendahuluan yang menjelaskan mengenai tujuan perangkat lunak, ruang lingkup, serta gambaran umum dokumen. </li>
+	<li>Mencatat pemesanan produk olahan mangga terhadap pembeli di aplikasi Mangolineshop.</li>
+	<li>Bab 2, adalah Deskripsi Umum, yang berisi tentang gambaran umum mengenai perspektif produk, manfaat produk, karakteristik user dan stakeholder, batasan, serta asumsi dan ketergantungan yang digunakan. </li>
+	<li>Bab 3, adalah Software Design, yang menyediakan spesifikasi, kebutuhan, antarmuka, kebutuhan fungsional dan nonfunctional, lingkungan operasi, dan batasan perancangan, permodelan proses, permodelan data, struktur data, spesifikasi program dan desain interface.</li>
+	</ol>
+
