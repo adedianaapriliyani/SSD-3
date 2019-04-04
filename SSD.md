@@ -8,14 +8,11 @@
 
 <p align="center">
     <b><font size="4">Kelompok 3:</font></b><br>
-    1. Ade Diana Apriliyani	 (1703072) <br>
-    2. Fany Fahrurozi (1703060)<br>
-    3. Fiqi Andri Reviansyah (1703064)<br>
+    Ade Diana Apriliyani	 (1703072) <br>
+    Fany Fahrurozi (1703060)<br>
+    Fiqi Andri Reviansyah (1703064)<br>
 </p>
 <center><font size="3"><p align="center">Kelas D3TI2C</p></font></center>
-
-<br>
-
 <br>
 
 <p align="center"><b><font size="5">D3 TEKNIK INFORMATIKA</font></b><br>
@@ -26,9 +23,9 @@
 <p><strong>&nbsp;</strong></p>
 <p align="center"><font size="5">Jl. Lohbener Lama No.08, Lohbener, Indramayu, Legok, Lohbener, Kabupaten Indramayu, Jawa Barat 45252, Indonesia</font><br>
 
-<p></p>
 <p><strong>&nbsp;</strong></p>
-<h1><strong>KATA PENGANTAR</strong></h1>
+
+<li><strong>KATA PENGANTAR</strong></li>
 <p>&nbsp;</p>
 <p>Puji syukur kehadirat Allah swt yang telah melimpahkan rahmat-Nya sehingga aplikasi ini dapat diselesaikan tepat pada waktunya dengan judul &ldquo;Aplikasi Penjualan Olahan Mangga Indramayu Berbasis Website &rdquo;. Aplikasi ini disusun demi memenuhi Tugas Mata Kuliah Proyek II Program Studi Teknik Informatika Diploma III Politeknik Negeri Indramayu.</p>
 <p>Harapan kami, aplikasi ini menjadi salah satu media yang menarik untuk dikunjungi dan mudah dipahami oleh seluruh pengunjungnya. Akhirnya penyusun mengucapkan banyak terima kasih, khususnya kepada:</p>
@@ -45,7 +42,9 @@
 <p><strong>&nbsp;</strong></p>
 <p><strong>&nbsp;</strong></p>
 <p><strong>&nbsp;</strong></p>
-<p><strong>RINGKASAN </strong></p>
+
+<li><strong>RINGKASAN</strong></li>
+
 <p>Aplikasi Penjualan Olahan Mangga Indramayu Berbasis Website (MANGOLINESHP) adalah salah satu jenis aplikasi perangkat lunak yang dapat digunakan untuk membantu proses penjualan olahan secara online. Selama ini pemasaran olahan mangga khas Indramayu dipasarkan secara konvensional yaitu dijual di toko sekitar Indramayu saja. Pemasaran olahan mangga Indramayu pun kurang berkembang karena pembeli harus datang ke toko. Oleh karena itu olahan mangga&nbsp; khas Indramayu pun yang mengenal hanya orang-orang yang singgah atau berwisata ke Indramayu saja. Sehingga kami berinisiatif untuk membuat sebuah wadah yang didalamnya terdapat lapak-lapak penjual olahan mangga dalam bentuk aplikasi berbasis website. Dibuatnya aplikasi ini kami bisa membantu pemasaran dari penjual olahan mangga Indramayu serta mempromosikan tentang keberagaman olahan mangga yang ada di Indramayu.</p>
 <p>Aplikasi Penjualan Olahan Mangga Indramayu Berbasis Website ini dibangun dengan menggunakan framework laravel dengan didukung basis data MYSQL.</p>
 <p><strong>Kata kunci&nbsp;&nbsp;&nbsp;&nbsp; : </strong>Aplikasi Penjualan, framework laravel, MYSQL</p>
