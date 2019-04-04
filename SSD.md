@@ -137,19 +137,19 @@ Secara ringkas, fungsi Aplikasi Mangolineshop dapat dituliskan sebagai berikut :
 <li><strong>3.2	Kebutuhan Non Fungsional</strong></li>
 <p>Kebutuhan yang mendukung kelancaran sistem ini didefnisikan sebagai berikut:</p>
 <ol>
-<li>1.	Availability	:</li>
+<li>Availability	:</li>
 <p>Aplikasi secara online, dengan asumsi koneksi internet dan jaringan berjalan normal</p>
-<li>2.	Reliability	: </li>
+<li>Reliability	: </li>
 <p>Sistem data reliabel berhubungan dengan stok produk olahan mangga Indramayu dan juga reliabel berhubungan dengan laporan keuangan</p>
-<li>3.	Ergonomy	:</li>
+<li>Ergonomy	:</li>
 <p>User friendly dengan memperhatikan hal yang berhubungan dengan Human Computer Interaction</p>
-<li>4.	Portability	: </li>
+<li>Portability	: </li>
 <p>Dapat diakses dari website untuk produk olahan mangga Indramayu serta diakses dari desktop mengenai transaksi dan laporan</p>
-<li>5.	Memory 	: </li>
+<li>Memory 	: </li>
 <p>Minimum memory untuk server aplikasi 4 Gb</p>
-<li>6.	Response time: </li>
+<li>Response time: </li>
 <p>Tidak terukur</p>
-<li>7.	Security	:</li>
+<li>Security	:</li>
 <p>Login dan validasi password</p>
 </ol>
 <li><strong>3.3	Kebutuhan Antarmuka (interface)</strong></li>
@@ -158,19 +158,19 @@ Secara ringkas, fungsi Aplikasi Mangolineshop dapat dituliskan sebagai berikut :
 <p>1.	Hardware Interface	: adalah kebutuhan perangkat keras yang harus dipenuhi untuk implementasi sistem aplikasi Mangolineshop berbasis website.</p>
 <p>2.	Software Interface	: kebutuhan software untuk implementasi sistem aplikasi Mangolineshop:</p>
 <ol>
-<li>a.	Postgre </li>
-<li>b.	Server Laragon</li>
-<li>c.	Visual Studio Code</li>
-<li>d.	Google Crome</li>
-<li>e.	Mozilla Firefox</li>
+<li>Postgre </li>
+<li>Server Laragon</li>
+<li>Visual Studio Code</li>
+<li>Google Crome</li>
+<li>Mozilla Firefox</li>
 </ol>
 	
 <li><strong>3.4	Lingkungan Operasi</strong></li>
 <p>Aplikasi aka berfungsi dengan lingkungan operasi sebagai berikut:</p>
 <ol>
-<li>a.	Sistem Operasi 	: Windows </li>
-<li>b.	DBMS		: Berbasis Postgre</li> 
-<li>c.	Pemrograman		: PHP dan HTML</li>
+<li>Sistem Operasi 	: Windows </li>
+<li>DBMS		: Berbasis Postgre</li> 
+<li>Pemrograman		: PHP dan HTML</li>
 </ol>
 
 <li><strong>3.5	Batasan Perancangan</strong></li>
@@ -181,9 +181,9 @@ Secara ringkas, fungsi Aplikasi Mangolineshop dapat dituliskan sebagai berikut :
 <p>DFD Level 0 (Context Diagram)<p>
 <p>Dalam perancangan DFD level 0, entitas eksternal yang terlibat adalah:</p>
 <ol>
-	<li>1.	Penjual </li>
-	<li>2.	Admin</li>
-	<li>3.	Pembeli</li>
+	<li>Penjual </li>
+	<li>Admin</li>
+	<li>Pembeli</li>
 </ol>
 
 
